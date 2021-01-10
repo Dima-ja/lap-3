@@ -1,0 +1,45 @@
+/* .container{
+    width: 60%;
+    margin: 100px auto;
+} */
+.container input{
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.listOfFilms{
+    background-color: #09c;
+    display: none;
+}
+.listOfFilms ul{
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.listOfFilms li{
+    padding: 15px;
+    font-size: 20px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.listOfFilms li:hover{
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.alert{
+    display: none;
+}
+#moviePart{
+    display: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: grey;
+}
+.link{
+    border: 1px solid yellow;
+    background-color: yellow;
+}
